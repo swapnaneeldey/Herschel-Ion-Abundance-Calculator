@@ -6,7 +6,7 @@ from astropy.io import fits
 as a callable function"""
 
 def source_name():
-    "returns all the source name as a list. egs [\"W3_88", "W3_122""...]"
+    "returns all the source name as a list. egs ["W3_88", "W3_122""...]"
     with open("/users/sdey/DATA/herschel.csv - Sheet2recent.csv", "r") as csvfile:
         # Create a reader object
         reader = csv.reader(csvfile, delimiter=',')
